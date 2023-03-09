@@ -1,0 +1,32 @@
+.shareButtonsMain{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.shareButtonsDesc{
+    font-size: 2vh;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+}
+
+.shareButtons{
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1120px) {
+    .shareButtons{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
